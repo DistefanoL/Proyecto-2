@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.miLogo{
+    height: 120px;
+    width: 150px;
+}
+
+body{
+    font-family: "roboto", sans-serif;
+    font-size: 30px;
+}
+
+/* navbar */
+.miFondo{
+    background-color: white;
+    border: 1px solid black;
+}
+
+nav{
+    border-top: solid 20px #fafafa;
+}
+
+.nav-link {
+    color: black;
+}
+
+.miLink:hover{
+background-color: black;
+color: #fafafa;
+border-radius: 40px;
+}
+
+
+/* carrusel */
+
+
+/* productos */
+
+.tituloProductos  {
+    background-color: black;
+    color: #fafafa;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.tituloProductos h2 {
+    font-size: 55px;
+}
+
+.colorBtn {
+    background-color: black;
+    color: #fafafa;
+    font-size: 25px;
+}
+
+.colorBtn:hover{
+    background-color: #fafafa;
+    color: black;
+}
+
+.row{
+    padding: 15px;
+}
+    
