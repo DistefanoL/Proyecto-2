@@ -8,6 +8,7 @@
 body{
     font-family: "roboto", sans-serif;
     font-size: 30px;
+    font-weight: 700;
 }
 
 /* navbar */
@@ -20,6 +21,12 @@ nav{
     border-top: solid 20px #fafafa;
 }
 
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
 .nav-link {
     color: black;
 }
@@ -27,7 +34,7 @@ nav{
 .miLink:hover{
 background-color: black;
 color: #fafafa;
-border-radius: 40px;
+/* border-radius: 40px; */
 }
 
 
@@ -36,6 +43,7 @@ border-radius: 40px;
    width: 100%;
    height: 750px;
 }
+
 
 /* productos */
 
@@ -65,4 +73,40 @@ border-radius: 40px;
 
 .row{
     padding: 15px;
+}
+
+/* Formulario */
+.miForm{
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+
+/* acerca de */
+.container{
+    display: flex;
+    flex-direction:row ;
+    flex-wrap: nowrap;
+    gap: 70px;
+    /* align-content: space-between; */
+}
+
+.item1 h2{
+    font-weight: 900;
+    text-decoration: underline;
+
+}
+
+.item2 h2{
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+    }
 }
