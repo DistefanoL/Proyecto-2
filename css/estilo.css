@@ -1,112 +1,103 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-
-.miLogo{
-    height: 120px;
-    width: 150px;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    font-family: "roboto", sans-serif;
-    font-size: 30px;
-    font-weight: 700;
+body {
+  font-family: "roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
 }
 
 /* navbar */
-.miFondo{
-    background-color: white;
-    border: 1px solid black;
+.miFondo {
+  background-color: #fafafa;
+  border: 1px solid black;
 }
 
-nav{
-    border-top: solid 20px #fafafa;
+nav {
+  border-top: solid 20px #fafafa;
 }
 
-.navbar{
-    position: sticky;
-    top: 0;
-    z-index: 2;
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 2;
 }
 
 .nav-link {
-    color: black;
+  color: black;
 }
 
-.miLink:hover{
-background-color: black;
-color: #fafafa;
-/* border-radius: 40px; */
+.miLink:hover {
+  background-color: black;
+  color: #fafafa;
 }
 
-
-/* carrusel */
-.carousel-item{
-   width: 100%;
-   height: 750px;
+.miLogo {
+  height: 120px;
+  width: 150px;
 }
-
 
 /* productos */
-
-.tituloProductos  {
-    background-color: black;
-    color: #fafafa;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 15px;
+.tituloProductos {
+  background-color: black;
+  color: #fafafa;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 15px;
 }
-
 .tituloProductos h2 {
-    font-size: 55px;
+  font-size: 55px;
 }
 
 .colorBtn {
-    background-color: black;
-    color: #fafafa;
-    font-size: 25px;
+  background-color: black;
+  color: #fafafa;
+  font-size: 25px;
+}
+.colorBtn:hover {
+  background-color: #fafafa;
+  color: black;
 }
 
-.colorBtn:hover{
-    background-color: #fafafa;
-    color: black;
+.row {
+  padding: 15px;
 }
-
-.row{
-    padding: 15px;
-}
-
-/* Formulario */
-.miForm{
-    font-weight: 800;
-    text-transform: uppercase;
-}
-
 
 /* acerca de */
-.container{
-    display: flex;
-    flex-direction:row ;
-    flex-wrap: nowrap;
-    gap: 70px;
-    /* align-content: space-between; */
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 70px;
 }
 
-.item1 h2{
-    font-weight: 900;
-    text-decoration: underline;
-
-}
-
-.item2 h2{
-    font-weight: 900;
-    text-decoration: underline;
+.item1 h2,
+.item2 h2 {
+  font-weight: 900;
+  text-decoration: underline;
 }
 
 @media (max-width: 768px) {
-    .container{
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
-
-    }
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
 }
+/* carrusel */
+.carousel-item {
+  width: 100%;
+  height: 750px;
+}
+
+/* Formulario */
+.miForm {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=estilo.css.map */

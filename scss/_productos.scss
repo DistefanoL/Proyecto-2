@@ -1,0 +1,33 @@
+/* productos */
+
+@mixin titulos {
+    background-color: black;
+    color: #fafafa;
+    font-weight: bold;
+}
+
+.tituloProductos {
+    @include titulos;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px;
+
+    h2 {
+        font-size: 55px;
+    }
+}
+
+.colorBtn {
+    background-color: black;
+    color: #fafafa;
+    font-size: 25px;
+
+    &:hover {
+        background-color: #fafafa;
+        color: black;
+    }
+}
+
+.row {
+    padding: 15px;
+}

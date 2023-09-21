@@ -1,0 +1,23 @@
+/* acerca de */
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 70px;
+
+}
+
+.item1 h2,
+.item2 h2 {
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+}

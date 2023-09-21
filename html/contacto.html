@@ -12,9 +12,10 @@
 
 <body>
 
+    <header></header>
     <nav class="navbar navbar-expand-lg miFondo">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="../index.html">
                 <img class="miLogo" src="../img/adidas-logo.png" alt="logo de adidas">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -43,34 +44,37 @@
             </div>
         </div>
     </nav>
+    </header>
 
+    <main>
+        <div class="tituloProductos mt-3">
+            <h2>Contacto</h2>
+        </div>
 
-    <div class="tituloProductos mt-3">
-        <h2>Contacto</h2>
-    </div>
+        <form>
+            <div class="mb-3 form-control-lg form-control-sm ">
+                <label for="exampleInputEmail1" class="form-label miForm">Nombre</label>
+                <input type="email" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp">
 
-    <form>
-        <div class="mb-3 form-control-lg form-control-sm ">
-            <label for="exampleInputEmail1" class="form-label miForm">Nombre</label>
-            <input type="email" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp">
-            
-        </div>
-        <div class="mb-3 form-control-lg form-control-sm ">
-            <label for="exampleInputPassword1" class="form-label miForm">Apellido</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
-        </div>
-        <div class="mb-3 form-control-lg form-control-sm ">
-            <label for="exampleInputPassword1" class="form-label miForm">Correo Electrónico</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
-        </div>
-        <div class="mb-3 form-check form-control-lg form-control-sm ">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label miForm" for="exampleCheck1">Verifica si sos humano</label>
-        </div>
-        <button type="submit" class="btn btn-primary form-control-lg form-control-sm  miForm">Submit</button>
-        <br><br>
-        <div id="emailHelp" class="form-text miForm">Si estamos interesados en que trabajes con nosotros te contactaremos a vía Email</div>
-    </form>
+            </div>
+            <div class="mb-3 form-control-lg form-control-sm ">
+                <label for="exampleInputPassword1" class="form-label miForm">Apellido</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-control-lg form-control-sm ">
+                <label for="exampleInputPassword1" class="form-label miForm">Correo Electrónico</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check form-control-lg form-control-sm ">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label miForm" for="exampleCheck1">Verifica si sos humano</label>
+            </div>
+            <button type="submit" class="btn btn-primary form-control-lg form-control-sm  miForm">Submit</button>
+            <br><br>
+            <div id="emailHelp" class="form-text miForm">Si estamos interesados en que trabajes con nosotros te
+                contactaremos a vía Email</div>
+        </form>
+    </main>
 
     <div class="container">
         <footer class="py-3 my-4 mx-auto">
@@ -80,8 +84,7 @@
                 </li>
                 <li class="nav-item"><a href="html/mujeres.html" class="nav-link px-2 text-muted">Mujer</a>
                 </li>
-                <li class="nav-item"><a href="html/contacto.html"
-                        class="nav-link px-2 text-muted">Contacto</a></li>
+                <li class="nav-item"><a href="html/contacto.html" class="nav-link px-2 text-muted">Contacto</a></li>
                 <li class="nav-item"><a href="html/acerca.html" class="nav-link px-2 text-muted">Acerca
                         de</a></li>
             </ul>

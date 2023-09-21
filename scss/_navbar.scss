@@ -1,0 +1,27 @@
+/* navbar */
+$color-negro: black;
+$color-blanco: #fafafa;
+.miFondo {
+    background-color: $color-blanco;
+    border: 1px solid black;
+}
+
+nav {
+    border-top: solid 20px #fafafa;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.nav-link {
+    color: $color-negro;
+}
+
+.miLink:hover {
+    background-color: $color-negro;
+    color: $color-blanco;
+
+}
